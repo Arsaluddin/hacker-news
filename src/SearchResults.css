@@ -1,0 +1,31 @@
+/* SearchResults.css */
+.search-results {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .search-result-item {
+    margin: 10px 0;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .search-result-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .result-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .result-link:hover {
+    color: #6961fb;
+  }
+  

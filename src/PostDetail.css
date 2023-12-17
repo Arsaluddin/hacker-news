@@ -1,0 +1,34 @@
+/* PostDetail.css */
+.post-detail-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .post-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .post-points {
+    font-size: 18px;
+    color: #6961fb;
+    margin-bottom: 15px;
+  }
+  
+  .comment-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .comment-item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .comment-text {
+    font-size: 16px;
+  }
+  
