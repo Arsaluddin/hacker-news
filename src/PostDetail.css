@@ -1,20 +1,24 @@
 /* PostDetail.css */
 .post-detail-container {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   }
   
   .post-title {
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    color: #333;
   }
   
   .post-points {
     font-size: 18px;
     color: #6961fb;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
   
   .comment-list {
@@ -23,12 +27,18 @@
   }
   
   .comment-item {
-    margin-bottom: 15px;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
   }
   
   .comment-text {
     font-size: 16px;
+    color: #444;
+  }
+  
+  .comment-text em {
+    font-style: italic;
+    color: #888;
   }
   
